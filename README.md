@@ -13,7 +13,7 @@ Simulation of a Memory Controller
 
 4. vlib work
 
-#Compile mem_controller.sv and mem_cont_defs.sv
+#Compile mem_controller.sv and mem_cont_defs.sv 
 
 5. vlog -sv mem_controller.sv mem_cont_defs.sv
 
