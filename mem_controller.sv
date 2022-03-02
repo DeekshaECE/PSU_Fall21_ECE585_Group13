@@ -1,10 +1,7 @@
 //////////////////////////////////////////////////////////////
-// mem_cont.sv - Reading and Parsing a Queue
+// mem_controller.sv - Process DRAM requests
 //
 // Author:	Deeksha Chandra Shekar (deek@pdx.edu) 
-//		Sneha Nagaiah (nagaiah@pdx.edu)
-//		Chandana Narayanamurthy (cn23@pdx.edu)
-//		Chrystle Pinto FNU (chrystle@pdx.edu)
 // Date:	09-Dec-2021
 //
 // Description:
