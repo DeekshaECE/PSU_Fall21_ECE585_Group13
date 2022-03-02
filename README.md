@@ -7,7 +7,7 @@
 
 #Add queuedHere.txt file with trace input file contents (from tracefiles_and_results folder - tx.trace) - {format - [clock time][mode of operation][hexadecimal address]}
 
-#cd <directory name>
+#cd directory_name
 
 #Source
 #vlib work
@@ -15,7 +15,7 @@
 #Compile mem_controller.sv and mem_cont_defs.sv
 #vlog -sv mem_controller.sv mem_cont_defs.sv
 
-#Simulate INPUT_FILE <input file>.trace
-#vsim +access +r +INPUT_FILE=<input file>.trace +OUTPUT_FILE=<output file>.txt work.mem_controller -c -do "run -all; exit"
+#Simulate INPUT_FILE input_file.trace
+#vsim +access +r +INPUT_FILE=input_file.trace +OUTPUT_FILE=output_file.txt work.mem_controller -c -do "run -all; exit"
 
-#Check output file <output file>.txt
+#Check output file output_file.txt
