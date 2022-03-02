@@ -4,6 +4,7 @@ Simulation of a Memory Controller
 Procedure to execute from terminal:
 
 Copy mem_controller.sv and mem_cont_defs.sv files into a directory
+
 Add queuedHere.txt file with trace input file contents (from tracefiles_and_results folder - tx.trace) - {format - [clock time][mode of operation][hexadecimal address]}
 
 cd <directory name>
