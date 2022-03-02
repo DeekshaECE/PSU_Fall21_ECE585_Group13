@@ -10,12 +10,15 @@ Simulation of a Memory Controller
 3. cd directory_name
 
 #Source
+
 4. vlib work
 
 #Compile mem_controller.sv and mem_cont_defs.sv
+
 5. vlog -sv mem_controller.sv mem_cont_defs.sv
 
 #Simulate INPUT_FILE input_file.trace
+
 6. vsim +access +r +INPUT_FILE=input_file.trace +OUTPUT_FILE=output_file.txt work.mem_controller -c -do "run -all; exit"
 
 7. Check output file output_file.txt
